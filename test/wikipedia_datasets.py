@@ -61,4 +61,4 @@ def rag_pipeline(query, top_k=5):
     answer = generate_answer(query, retrieved_docs)
     return answer
 
-print(rag_pipeline("java"))
+print(rag_pipeline("康熙和雍正"))
